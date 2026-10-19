@@ -4,6 +4,10 @@
 <body>
     <h1>About SCSE3203</h1>
     <p>Java web development using Spring Boot and Thymeleaf.</p>
-    <a href="/">Back to Home</a>
+    <nav>
+        <a th:href="@{/}">Home</a> |
+        <a th:href="@{/about}">About</a> |
+        <a th:href="@{/profile}">Profile</a>
+    </nav>
 </body>
 </html>

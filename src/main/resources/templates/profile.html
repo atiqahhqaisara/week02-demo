@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+</head>
+<body>
+
+    <h1>Student Profile</h1>
+
+    <h2>Meet Alex Tan</h2>
+
+    <p><strong>Programme:</strong> Software Engineering</p>
+    <p><strong>University:</strong> Universiti Teknologi Malaysia</p>
+    <p><strong>Year:</strong> Year 2</p>
+    <p><strong>Interests:</strong> Web Development and UI Design</p>
+
+    <hr>
+
+    <nav>
+        <a th:href="@{/}">Home</a> |
+        <a th:href="@{/about}">About</a> |
+        <a th:href="@{/profile}">Profile</a>
+    </nav>
+
+</body>
+</html>
